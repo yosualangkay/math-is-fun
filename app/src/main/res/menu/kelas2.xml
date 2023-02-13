@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/urutanBilangan"
+        android:title="Urutan Bilangan"
+        android:icon="@drawable/ic_baseline_book_24"
+         />
+
+    <item
+        android:id="@+id/operasiPenjumlahanPengurangan"
+        android:title="Operasi Penjumlahan dan Pengurangan"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pengukuran"
+        android:title="Pengukuran"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/operasiPerkalianPembagian"
+        android:title="Operasi Perkalian Pembagian"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bangunDatarK2"
+        android:title="Bangun Datar"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/backKelas"
+        android:title="Kembali"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        app:showAsAction="never" />
+
+</menu>

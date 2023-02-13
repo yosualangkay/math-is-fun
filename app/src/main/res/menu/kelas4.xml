@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/aplikasiPecahan"
+        android:title="Aplikasi Pecahan"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/aproksimasi1"
+        android:title="Pembulatan Hasil Pengukuran Panjang dan Berat ke Satuan terdekat"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/aproksimasi2"
+        android:title="Pembulatan Hasil Pengukuran Panjang dan Berat ke Puluhan terdekat"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aproksimasi3"
+        android:title="Pembulatan Hasil Pengukuran Panjang dan Berat ke Ratusan terdekat"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bentukPecahan"
+        android:title="Bentuk Pecahan"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/bilanganPecahan"
+        android:title="Bilangan Pecahan"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/faktorPrima"
+        android:title="Faktorisasi Prima"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/faktorKelipatanBilangan"
+        android:title="Faktor dan kelipatan Bilangan"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/kpkfpb"
+        android:title="Menentukan KPK dan FPB"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/kelilingBangunDatar"
+        android:title="Keliling Bangun Datar"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/luasBangunDatar"
+        android:title="Luas Bangun Datar"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/penerapanKpkFpb"
+        android:title="Penerapan KPK dan FPB"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sudut1"
+        android:title="Pengukuran Sudut Dalam Satuan baku Dengan Busur Derajat"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sudut2"
+        android:title="Pengukuran Sudut Bangun Datar dengan Busur Derajat"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/segiBanyak"
+        android:title="Bangun Segi Banyak"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/statistika1"
+        android:title="Membaca dan Menafsir Data"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/statistika2"
+        android:title="Statistika 2"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/taksiran"
+        android:title="Taksiran"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/backKelas"
+        android:title="Kembali"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        app:showAsAction="never" />
+
+</menu>

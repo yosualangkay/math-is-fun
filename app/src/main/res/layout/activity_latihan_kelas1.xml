@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0CED9"
+    tools:context=".latihan_soal.latihan_soal_kelas1.LatihanKelas1">
+
+    <ImageView
+        android:id="@+id/soal_latihan1"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/latihan1" />
+
+    <Button
+        android:id="@+id/pilihanA"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_latihan1_no1_opsi1"
+        android:textColor="#EA2A2A"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        app:backgroundTint="#f7d4c8"
+        app:layout_constraintEnd_toStartOf="@+id/pilihanB"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soal_latihan1" />
+
+    <Button
+        android:id="@+id/pilihanB"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/btn_latihan1_no1_opsi2"
+        android:textColor="#EA2A2A"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        app:backgroundTint="#f7d4c8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soal_latihan1" />
+
+    <Button
+        android:id="@+id/pilihanC"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_latihan1_no1_opsi3"
+        android:textColor="#EA2A2A"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        app:backgroundTint="#f7d4c8"
+        app:layout_constraintEnd_toStartOf="@+id/pilihanD"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pilihanA" />
+
+    <Button
+        android:id="@+id/pilihanD"
+        android:layout_width="155dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/btn_latihan1_no1_opsi4"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textColor="#EA2A2A"
+        app:backgroundTint="#f7d4c8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pilihanB" />
+
+    <Button
+        android:id="@+id/solusi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/btn_penyelesaian"
+        android:textColor="#EA2A2A"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        app:backgroundTint="#f7d4c8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

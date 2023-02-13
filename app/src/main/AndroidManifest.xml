@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.pa.mathisfun">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+        android:name=".menu.Notification"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MathIsFun"
+        android:usesCleartextTraffic="true">
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/mif" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" />
+
+        <activity
+            android:name=".menu.UbahPassword"
+            android:exported="true" />
+        <activity
+            android:name=".menu.RumusLuas"
+            android:exported="true" />
+        <activity
+            android:name=".menu.BelajarPerkalian"
+            android:exported="true" />
+        <activity
+            android:name=".menu.BelajarHitung"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.Materi16"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.Materi15"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.Materi14"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.Materi13"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.Materi12"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas5.ExamResultMinKelas5"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas4.ExamResultMinKelas4"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas3.ExamResultMinKelas3"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.Materi11"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.Materi10"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.Materi9"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.Materi8"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.Materi7"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.Materi6"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.Materi5"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.Materi4"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.Materi3"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas1.ExamResultMinKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas2.ExamResultMinKelas2"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas6.ExamResultMinKelas6"
+            android:exported="true" />
+        <activity
+            android:name=".menu.HalamanPilihKelas"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.Materi2"
+            android:exported="true" />
+        <activity
+            android:name=".ProgresBelajar"
+            android:exported="true" />
+        <activity
+            android:name=".NamaUser"
+            android:exported="true" />
+        <activity
+            android:name=".menu.Profile"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.Materi1"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".WebViewActivity" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".daftar_tips.Tips6"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_tips.Tips5"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_tips.Tips4"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.PecahanSederhana"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.PengukuranKelas3"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.OperasiHitungBilangan"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.BangunDatarKelas2"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.OperasiPerkalianPembagian"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.Pengukuran"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.OperasiPenjumlahanPengurangan"
+            android:exported="true" />
+        <activity
+            android:name=".materi2.UrutanBilangan"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.BangunDatarKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.PengukuranBerat"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.BangunRuangKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.SatuanPengukuran"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.BilanganCacah"
+            android:exported="true" />
+        <activity
+            android:name=".menu.HalamanSaran"
+            android:exported="true" />
+        <activity
+            android:name=".menu.InfoApp"
+            android:exported="true" />
+        <activity
+            android:name=".materi6.StatistikaKelas6"
+            android:exported="true" />
+        <activity
+            android:name=".materi6.BangunRuangKelas6"
+            android:exported="true" />
+        <activity
+            android:name=".materi6.Lingkaran"
+            android:exported="true" />
+        <activity
+            android:name=".materi6.BilanganBulat"
+            android:exported="true" />
+        <activity
+            android:name=".materi5.PengumpulanPenyajianData"
+            android:exported="true" />
+        <activity
+            android:name=".materi5.BangunRuang"
+            android:exported="true" />
+        <activity
+            android:name=".materi5.OperasiHitungPecahan"
+            android:exported="true" />
+        <activity
+            android:name=".materi5.Skala"
+            android:exported="true" />
+        <activity
+            android:name=".materi5.KecepatanDebit"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.PenerapanKpkFpb"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.Taksiran"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.AplikasiPecahan"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.FaktorisasiPrima"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.Aproksimasi1"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.Aproksimasi2"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.Aproksimasi3"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.KelilingBangunDatar"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.LuasBangunDatar"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.Statistika1"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.Statistika2"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.PengukuranSudut1"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.PengukuranSudut2"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.BilanganPecahan"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.HasilLatihan"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_tips.Tips3"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_tips.Tips2"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.BentukPecahan"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.SegiBanyak"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.FpbKpk"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.FaktorKelipatanBilangan"
+            android:exported="true" />
+        <activity
+            android:name=".materi4.BentukPecahan"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.solusi_kelas6.SolusiKelas6Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.solusi_kelas6.SolusiKelas6Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.solusi_kelas6.SolusiKelas6Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.solusi_kelas6.SolusiKelas6Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.solusi_kelas6.SolusiKelas6Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.solusi_kelas5.SolusiKelas5Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.solusi_kelas5.SolusiKelas5Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.solusi_kelas5.SolusiKelas5Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.solusi_kelas5.SolusiKelas5Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.solusi_kelas5.SolusiKelas5Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.solusi_kelas4.SolusiKelas4Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.solusi_kelas4.SolusiKelas4Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.solusi_kelas4.SolusiKelas4Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.solusi_kelas4.SolusiKelas4Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.solusi_kelas4.SolusiKelas4Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.solusi_kelas3.SolusiKelas3Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.solusi_kelas3.SolusiKelas3Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.solusi_kelas3.SolusiKelas3Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.solusi_kelas3.SolusiKelas3Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.solusi_kelas3.SolusiKelas3Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.solusi_kelas2.SolusiKelas2Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.solusi_kelas2.SolusiKelas2Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.solusi_kelas2.SolusiKelas2Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.solusi_kelas2.SolusiKelas2Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.solusi_kelas2.SolusiKelas2Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.solusi.SolusiKelas1Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.solusi.SolusiKelas1Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.solusi.SolusiKelas1Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.solusi.SolusiKelas1Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.solusi.SolusiKelas1Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas6.ExamResultKelas6"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas6.ExamKelas6"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas5.ExamResultKelas5"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas5.ExamKelas5"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas4.ExamResultKelas4"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas4.ExamKelas4"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas3.ExamResultKelas3"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas3.ExamKelas3"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas2.ExamResultKelas2"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas2.ExamKelas2"
+            android:exported="true" />
+        <activity
+            android:name=".menu.SemuaMateri"
+            android:exported="true"
+            android:label="Semua Materi" />
+        <activity
+            android:name=".materi3.BangunDatarK3"
+            android:exported="true" />
+        <activity
+            android:name=".materi3.KelilingBangunDatar"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas1.ExamResultKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".menu.PilihKelasExam"
+            android:exported="true" />
+        <activity
+            android:name=".exam.exam_kelas1.ExamKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".materi1.PenjumlahanDanPengurangan"
+            android:exported="true" />
+        <activity
+            android:name=".InitialView"
+            android:exported="true"
+            android:theme="@style/NoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MateriActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".daftar_materi.DaftarMateriKelas6"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_materi.DaftarMateriKelas5"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_materi.DaftarMateriKelas4"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_materi.DaftarMateriKelas3"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_materi.DaftarMateriKelas2"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_tips.Tips1"
+            android:exported="true" />
+        <activity
+            android:name=".daftar_materi.DaftarMateriKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.LatihanKelas1Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.LatihanKelas1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.LatihanKelas1Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.LatihanKelas1Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas1.LatihanKelas1Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.LatihanKelas2Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.LatihanKelas2Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.LatihanKelas2Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.LatihanKelas2Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas2.LatihanKelas2Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.LatihanKelas3Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.LatihanKelas3Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.LatihanKelas3Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.LatihanKelas3Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas3.LatihanKelas3Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.LatihanKelas4Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.LatihanKelas4Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.LatihanKelas4Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.LatihanKelas4Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas4.LatihanKelas4Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.LatihanKelas5Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.LatihanKelas5Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.LatihanKelas5Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.LatihanKelas5Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas5.LatihanKelas5Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.LatihanKelas6Nomor1"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.LatihanKelas6Nomor2"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.LatihanKelas6Nomor3"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.LatihanKelas6Nomor4"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_soal.latihan_soal_kelas6.LatihanKelas6Nomor5"
+            android:exported="true" />
+        <activity
+            android:name=".menu.PilihKelasLatihan"
+            android:exported="true" />
+        <activity
+            android:name=".menu.HalamanTips"
+            android:exported="true" />
+        <activity
+            android:name=".menu.HalamanQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".menu.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

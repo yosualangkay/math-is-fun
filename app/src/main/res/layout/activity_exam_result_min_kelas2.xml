@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0CED9"
+    tools:context=".exam.exam_kelas2.ExamResultMinKelas2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="214dp"
+                android:layout_height="205dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="75dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sad" />
+
+            <TextView
+                android:id="@+id/hasil_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="monospace"
+                android:text="Nilai kamu masih belum cukup nih, ayo semangat!"
+                android:textAlignment="center"
+                android:textColor="#404F9F"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/nilai_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:text="@string/result_score"
+                android:layout_marginStart="140dp"
+                android:textAlignment="center"
+                android:textColor="#B52020"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_ulang"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="monospace"
+                android:text="@string/btn_cobalagi"
+                android:textAlignment="center"
+                android:textColor="#EA2A2A"
+                android:textSize="20sp"
+                android:layout_marginStart="85dp"
+                app:backgroundTint="#f7d4c8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nilai_exam" />
+
+            <Button
+                android:id="@+id/btnKembali"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:text="@string/btn_kembali"
+                android:textColor="#EA2A2A"
+                android:textSize="20sp"
+                android:layout_marginStart="85dp"
+                app:backgroundTint="#f7d4c8" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

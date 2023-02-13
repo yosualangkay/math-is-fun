@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>Math Is Fun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+        <a href="#" class="tablinks" onclick="openMateri(event, 'Bilangan Cacah')" id="defaultOpen">Bilangan Cacah </a>
+        <a href="#" class="tablinks" onclick="openMateri(event, 'Bangun Datar')">Bangun Datar</a>
+        <a href="#" class="tablinks" onclick="openMateri(event, 'Bangun Ruang')">Bangun Ruang</a>
+        <a href="#" class="tablinks" onclick="openMateri(event, 'Pengukuran Berat')">Pengukuran Berat</a>
+        <a href="#" class="tablinks" onclick="openMateri(event, 'Penjumlahan dan Pengurangan')">Penjumlahan dan Pengurangan</a>
+        <a href="#" class="tablinks" onclick="openMateri(event, 'Satuan Pengukuran')">Satuan Pengukuran</a>
+        
+      </div>
+      
+      <nav class="menu navbar navbar-expand-lg bg-light">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="text-white p-1 ">&#9776;Materi Kelas 1</span>
+        <button class="btnHome btn btn-info"><a href="home.html" class="text-white">Home</a></button>
+    </nav>
+      
+      <div class="container mb-5">
+        <div id="Bilangan Cacah" class="tabcontent mt-3">
+            <h1 class="text-center">Bilangan Cacah</h1>
+            <h3>A. Membilang banyak benda</h3>
+            <!-- <img src="/Gambar/1-20.jpg" alt="img" class="gambar p-1" width="350" height="250"> -->
+            <iframe width="350" height="250" src="https://www.youtube.com/embed/Y2brANut_NM" title="Membilang banyak benda | MATEMATIKA Kelas 1 SD | Semester 1 | Kurikulum 13" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            <img src="file:///android_asset/Gambar/8.jpg" alt="img" class="gambar p-1" width="350" height="500"><br>
+            <img src="file:///android_asset/Gambar/10.jpg" alt="img" class="gambar p-1" width="350" height="250"><br>
+            <img src="file:///android_asset/Gambar/1-5.jpg" alt="img" class="gambar p-1" width="350" height="400"><br>
+            <h4 class="txtLatihan">Latihan</h4>
+            <h5>Hitunglah banyak bola basket di bawah ini.</h5>
+            <img src="file:///android_asset/Gambar/basket.jpg" alt="img" class="gambar p-1" width="350" height="130"><br>
+            
+            <form name="form">
+                <div class="mb-3">
+                    <input type="number" name="hasil" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Jawaban" value="">
+                    <button type="button" name="submit" class=" btn btn-dark text-white" onclick="cekHitung()">Cek hasil</button>
+    
+                  </div>
+            </form>
+
+            <div class="container">
+                <h3>B. Penjumlahan dan Pengurangan </h3>
+                <iframe width="350" height="250" src="https://www.youtube.com/embed/gGC16Ur1u8Q" title="penjumlahan & Pengurangan sampai 20 | Matematika kelas 1 SD/MI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <h4>1. Penjumlahan bilangan</h4>
+                <img width="350" height="250" src="file:///android_asset/Gambar/penjumlahan1.jpg.opdownload" alt="gambar">
+                <img class="mt-5" width="350" height="150" src="file:///android_asset/Gambar/panjumlahan2.jpg" alt="gambar">
+
+                <h4 class="mt-5">2. Pengurangan bilangan</h4>
+                <img width="350" height="250" src="file:///android_asset/Gambar/pengurangan1.jpg" alt="gambar">
+                <img class="mt-5" width="350" height="150" src="file:///android_asset/Gambar/pengurangan2.jpg" alt="gambar">
+
+            </div>
+
+            
+            <button type="button"  class="mt-5 btn btn-primary text-white" onclick="openMateri(event, 'Bangun Datar')">Lanjut Materi Selanjutnya</button>
+
+
+          </div>
+          
+          <div id="Bangun Datar" class="tabcontent">
+            <h3>Bangun Datar</h3>
+            <p>Bangun datar...</p>
+          </div>
+    
+          <div id="Bangun Ruang" class="tabcontent">
+            <h3>Bangun Ruang</h3>
+            <p>Bangun datar...</p>
+          </div>
+    
+          <div id="Pengukuran Berat" class="tabcontent">
+            <h3>Pengukuran Berat</h3>
+            <p>Bangun datar...</p>
+          </div>
+    
+          <div id="Penjumlahan dan Pengurangan" class="tabcontent">
+            <h3>Penjumlahan dan Pengurangan</h3>
+            <p>Bangun datar...</p>
+          </div>
+    
+          <div id="Satuan Pengukuran" class="tabcontent">
+            <h3>Satuan Pengukuran</h3>
+            <p>Bangun datar...</p>
+          </div>
+      </div>
+      
+
+<script>
+    function nextMateri2(){
+        if(form.hasil1.value == 10){
+            alert("Jawaban kamu benar");
+        }else{
+            alert("Jawaban kamu salah, Ayo coba lagi");
+        }
+    }
+    function cekHitung(){
+        if(form.hasil.value == 10){
+            alert("jawaban kamu benar");
+        }else{
+            alert("Jawaban kamu salah, Ayo coba lagi");
+        }
+    }
+</script>
+<script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
+function openMateri(evt, MateriName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(MateriName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+}
+document.getElementById("defaultOpen").click();
+
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

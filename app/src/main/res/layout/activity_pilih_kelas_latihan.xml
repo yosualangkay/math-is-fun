@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0CED9"
+    tools:context=".menu.PilihKelasLatihan">
+
+
+    <ImageView
+        android:id="@+id/btn_pilih_kelas1"
+        android:layout_width="170dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:background="#0013E81C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/satu"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/btn_pilih_kelas2"
+        android:layout_width="170dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:background="#0013E81C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_pilih_kelas1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dua"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/btn_pilih_kelas3"
+        android:layout_width="170dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#0013E81C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pilih_kelas1"
+        app:srcCompat="@drawable/tiga"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/btn_pilih_kelas4"
+        android:layout_width="170dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#0013E81C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_pilih_kelas3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pilih_kelas2"
+        app:srcCompat="@drawable/empat"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/btn_pilih_kelas5"
+        android:layout_width="170dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#0013E81C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pilih_kelas3"
+        app:srcCompat="@drawable/lima"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/btn_pilih_kelas6"
+        android:layout_width="170dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="#0013E81C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_pilih_kelas5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pilih_kelas4"
+        app:srcCompat="@drawable/enam"
+        android:contentDescription="@string/todo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

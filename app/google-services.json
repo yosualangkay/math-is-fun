@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139284110927",
+    "project_id": "math-is-fun-e8535",
+    "storage_bucket": "math-is-fun-e8535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139284110927:android:a797183c305c27f102543a",
+        "android_client_info": {
+          "package_name": "org.pa.mathisfun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139284110927-pkb9c27bnl7o4530prchkln97vscm7vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKO2x0XJ66Auq_GocmjDe1R5I-rlpOQwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139284110927-pkb9c27bnl7o4530prchkln97vscm7vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

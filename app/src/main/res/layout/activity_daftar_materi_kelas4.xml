@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_daftar_materi_kelas4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#35CBE4"
+    tools:context=".daftar_materi.DaftarMateriKelas4">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/materi_kelas_4"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBilanganPecahan"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/bilangan_pecahan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/btnBentukPecahan"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/bentuk_pecahan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBilanganPecahan" />
+
+    <Button
+        android:id="@+id/btnFaktorDanKelipatanBilangan"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/faktor_dan_kelipatan_bilangan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBentukPecahan" />
+
+    <Button
+        android:id="@+id/btnMenentukanKpkFpb"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/menentukan_kpk_dan_fpb"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFaktorDanKelipatanBilangan" />
+
+    <Button
+        android:id="@+id/btnPenerapanKpkFpb"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/penerapan_kpk_fpb"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMenentukanKpkFpb" />
+
+    <Button
+        android:id="@+id/btnMateriSegiBanyak"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/bangun_segibanyak"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPenerapanKpkFpb" />
+
+    <Button
+        android:id="@+id/btnTaksiran"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/taksiran"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnMateriSegiBanyak" />
+
+    <Button
+        android:id="@+id/btnAplikasiPecahan"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/aplikasi_pecahan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnTaksiran" />
+
+    <Button
+        android:id="@+id/btnFaktorisasiPrima"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/faktorisasi_prima"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnAplikasiPecahan" />
+
+    <Button
+        android:id="@+id/btnAproksimasi1"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/pembulatan_hasil_pengukuran_panjang_dan_berat_ke_satuan_terdekat"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnFaktorisasiPrima" />
+
+    <Button
+        android:id="@+id/btnAproksimasi2"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/pembulatan_hasil_pengukuran_panjang_dan_berat_ke_puluhan_terdekat"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnAproksimasi1" />
+
+    <Button
+        android:id="@+id/btnAproksimasi3"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/pembulatan_hasil_pengukuran_panjang_dan_berat_ke_ratusan_terdekat"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnAproksimasi2" />
+
+    <Button
+        android:id="@+id/btnKelilingBangunDatar"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/keliling_bangun_datar"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnAproksimasi3" />
+
+    <Button
+        android:id="@+id/btnLuasBangunDatar"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/luas_bangun_datar"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnKelilingBangunDatar" />
+
+    <Button
+        android:id="@+id/btnStatistika1"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/membaca_dan_menafsir_datar"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnLuasBangunDatar" />
+
+    <Button
+        android:id="@+id/btnStatistika2"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/penyajian_data_dalam_diagram_batang"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnStatistika1" />
+
+    <Button
+        android:id="@+id/btnPengukuranSudut1"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/pengukuran_sudut_dalam_satuan_baku_dengan_busur_derajat"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnStatistika2" />
+
+    <Button
+        android:id="@+id/btnPengukuranSudut2"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="@string/pengukuran_sudut_bangun_datar_dengan_busur_derajat"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPengukuranSudut1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

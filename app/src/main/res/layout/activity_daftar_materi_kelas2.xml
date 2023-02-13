@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".daftar_materi.DaftarMateriKelas1">
+
+<TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/materi_kelas_2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUrutanBilangan"
+        android:layout_width="324dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/urutan_bilangan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+    <Button
+        android:id="@+id/btnOperasiPenjumlahanPengurangan"
+        android:layout_width="324dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/operasi_penjumlahan_dan_pengurangan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUrutanBilangan" />
+    <Button
+        android:id="@+id/btnPengukuran"
+        android:layout_width="324dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/pengukuran"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOperasiPenjumlahanPengurangan" />
+    <Button
+        android:id="@+id/btnPerkalianPembagian"
+        android:layout_width="324dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/operasi_perkalian_dan_pembagian"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPengukuran" />
+    <Button
+        android:id="@+id/btnBangunDatar"
+        android:layout_width="324dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/bangun_datar"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPerkalianPembagian" />
+</androidx.constraintlayout.widget.ConstraintLayout>

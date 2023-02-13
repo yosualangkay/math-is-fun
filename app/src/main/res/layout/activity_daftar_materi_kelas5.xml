@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35CBE4"
+    tools:context=".daftar_materi.DaftarMateriKelas5">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/materi_kelas_5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOperasiHitungPecahan"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/operasi_hitung_pecahan"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btnKecepatanDebit"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/kecepatan_dan_debit"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOperasiHitungPecahan" />
+
+    <Button
+        android:id="@+id/btnSkala"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/skala"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKecepatanDebit" />
+
+    <Button
+        android:id="@+id/btnBangunRuang"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/bangun_ruang"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSkala" />
+
+    <Button
+        android:id="@+id/btnPengumpulanPenyajianData"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/pengumpulan_dan_penyajian_data"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#03738B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBangunRuang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

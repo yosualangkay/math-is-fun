@@ -1,0 +1,414 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Math Is Fun</string>
+    <string name="nomorExam">%d.</string>
+    <string name="result_score">%d / 100</string>
+
+    <string name="btn_cobalagi">Coba Lagi</string>
+    <string name="btn_kembali">Kembali</string>
+    <string name="btn_penyelesaian">Penyelesaian</string>
+
+    <string name="btn_latihan1_no1_opsi1">9</string>
+    <string name="btn_latihan1_no1_opsi2">12</string>
+    <string name="btn_latihan1_no1_opsi3">10</string>
+    <string name="btn_latihan1_no1_opsi4">8</string>
+
+    <string name="btn_latihan1_no2_opsi1">03:00</string>
+    <string name="btn_latihan1_no2_opsi2">12:00</string>
+    <string name="btn_latihan1_no2_opsi3">04:00</string>
+    <string name="btn_latihan1_no2_opsi4">06:00</string>
+
+    <string name="soal_latihan1_no3">Bangun yang mempunyai 2 buah lingkaran di bagian atas dan bawahnya adalah…</string>
+    <string name="btn_latihan1_no3_opsi1">Kerucut</string>
+    <string name="btn_latihan1_no3_opsi2">Tabung</string>
+    <string name="btn_latihan1_no3_opsi3">Bola</string>
+    <string name="btn_latihan1_no3_opsi4">Balok</string>
+
+    <string name="soal_latihan1_no5">Bentuk amplop adalah…</string>
+    <string name="btn_latihan1_no5_opsi1">Segitiga</string>
+    <string name="btn_latihan1_no5_opsi2">Lingkaran</string>
+    <string name="btn_latihan1_no5_opsi3">Segiempat</string>
+    <string name="btn_latihan1_no5_opsi4">Segilima</string>
+
+    <!--    <string name="soal_latihan2_no1">Tentukan lambang bilangan dari seratus sebelas…</string>-->
+    <!--    <string name="btn_latihan2_no1_opsi1">114</string>-->
+    <!--    <string name="btn_latihan2_no1_opsi2">101</string>-->
+    <!--    <string name="btn_latihan2_no1_opsi3">111</string>-->
+    <!--    <string name="btn_latihan2_no1_opsi4">110</string>-->
+
+    <!--    <string name="soal_latihan2_no2">Selisih dari bilangan 397 dan 53 adalah…</string>-->
+    <!--    <string name="btn_latihan2_no2_opsi1">345</string>-->
+    <!--    <string name="btn_latihan2_no2_opsi2">344</string>-->
+    <!--    <string name="btn_latihan2_no2_opsi3">342</string>-->
+    <!--    <string name="btn_latihan2_no2_opsi4">343</string>-->
+
+    <!--    <string name="soal_latihan2_no3">1 kotak pensil berisi 3 bulpoin. Berapa jumlah pensil jika terdapat 6 kotak pensil…</string>-->
+    <!--    <string name="btn_latihan2_no3_opsi1">14</string>-->
+    <!--    <string name="btn_latihan2_no3_opsi2">16</string>-->
+    <!--    <string name="btn_latihan2_no3_opsi3">20</string>-->
+    <!--    <string name="btn_latihan2_no3_opsi4">18</string>-->
+
+    <!--    <string name="soal_latihan2_no4">Sinta memiliki gula seberat 5 kg, kemudian tetangganya memberikan gula kepada Sinta seberat 2 kg. Berapa gram gula yang dimiliki oleh Sinta sekarang…</string>-->
+    <!--    <string name="btn_latihan2_no4_opsi1">7.000</string>-->
+    <!--    <string name="btn_latihan2_no4_opsi2">6.000</string>-->
+    <!--    <string name="btn_latihan2_no4_opsi3">8.000</string>-->
+    <!--    <string name="btn_latihan2_no4_opsi4">5.000</string>-->
+
+    <!--    <string name="soal_latihan2_no5">Segitiga memiliki…sisi</string>-->
+    <!--    <string name="btn_latihan2_no5_opsi1">4</string>-->
+    <!--    <string name="btn_latihan2_no5_opsi2">1</string>-->
+    <!--    <string name="btn_latihan2_no5_opsi3">2</string>-->
+    <!--    <string name="btn_latihan2_no5_opsi4">3</string>-->
+
+    <!--    <string name="soal_latihan3_no1">Siska dan Dita telah mendapatkan nilai dari hasil ujian matematika. Nilai yang Siska dapat adalah 89, sedangkan Dita mendapatkan nilai 94. Berapakah selisih nilai mereka…</string>-->
+    <!--    <string name="btn_latihan3_no1_opsi1">4</string>-->
+    <!--    <string name="btn_latihan3_no1_opsi2">6</string>-->
+    <!--    <string name="btn_latihan3_no1_opsi3">5</string>-->
+    <!--    <string name="btn_latihan3_no1_opsi4">7</string>-->
+
+    <!--    <string name="soal_latihan3_no2">Penjual cokelat sedang menimbang 1 batang cokelat yang Tia beli. Berat 1 batang cokelat adalah 5 ons + 1 ons + 2 ons. Maka berapa total berat cokelat Tia…</string>-->
+    <!--    <string name="btn_latihan3_no2_opsi1">9</string>-->
+    <!--    <string name="btn_latihan3_no2_opsi2">8</string>-->
+    <!--    <string name="btn_latihan3_no2_opsi3">7</string>-->
+    <!--    <string name="btn_latihan3_no2_opsi4">10</string>-->
+
+    <!--    <string name="soal_latihan3_no3">Sari mempunyai sebuah pizza yang dibagi menjadi 8 bagian sama besar. Bentuk pecahan dari pizza tersebut adalah…</string>-->
+    <!--    <string name="btn_latihan3_no3_opsi1">1\n-\n4</string>-->
+    <!--    <string name="btn_latihan3_no3_opsi2">1\n-\n6</string>-->
+    <!--    <string name="btn_latihan3_no3_opsi3">2\n-\n8</string>-->
+    <!--    <string name="btn_latihan3_no3_opsi4">1\n-\n8</string>-->
+
+    <!--    <string name="soal_latihan3_no4">Segitiga yang salah satu sudutnya memiliki ukuran lebih dari 90° termasuk ke dalam jenis segitiga…</string>-->
+    <!--    <string name="btn_latihan3_no4_opsi1">Tumpul</string>-->
+    <!--    <string name="btn_latihan3_no4_opsi2">Lancip</string>-->
+    <!--    <string name="btn_latihan3_no4_opsi3">Siku-siku</string>-->
+    <!--    <string name="btn_latihan3_no4_opsi4">Salah semua</string>-->
+
+    <!--    <string name="soal_latihan3_no5">Ari menggambar persegi yang memiliki panjang sisi 4 cm. Berapakah keliling persegi tersebut…</string>-->
+    <!--    <string name="btn_latihan3_no5_opsi1">14</string>-->
+    <!--    <string name="btn_latihan3_no5_opsi2">16</string>-->
+    <!--    <string name="btn_latihan3_no5_opsi3">12</string>-->
+    <!--    <string name="btn_latihan3_no5_opsi4">11</string>-->
+
+    <!--    <string name="soal_latihan4_no1">Ada 1 buah pizza yang dipotong menjadi 8 bagian. Lalu Doni mengambil 3 potong. Pecahan untuk menyatakan bagian pizza yang Doni ambil dari seluruh potongan pizza adalah…</string>-->
+    <!--    <string name="btn_latihan4_no1_opsi1">1\n-\n8</string>-->
+    <!--    <string name="btn_latihan4_no1_opsi2">1\n-\n3</string>-->
+    <!--    <string name="btn_latihan4_no1_opsi3">8\n-\n3</string>-->
+    <!--    <string name="btn_latihan4_no1_opsi4">3\n-\n8</string>-->
+
+    <!--    <string name="soal_latihan4_no2">Tentukan taksiran atas ke ribuan terdekat dari 3.858…</string>-->
+    <!--    <string name="btn_latihan4_no2_opsi1">4.860</string>-->
+    <!--    <string name="btn_latihan4_no2_opsi2">4.000</string>-->
+    <!--    <string name="btn_latihan4_no2_opsi3">4.100</string>-->
+    <!--    <string name="btn_latihan4_no2_opsi4">3.900</string>-->
+
+    <!--&lt;!&ndash;    <string name="soal_latihan4_no3">Berapa banyak bilangan yang merupakan faktor dari 45…</string>&ndash;&gt;-->
+    <!--    <string name="btn_latihan4_no3_opsi1">7</string>-->
+    <!--    <string name="btn_latihan4_no3_opsi2">5</string>-->
+    <!--    <string name="btn_latihan4_no3_opsi3">6</string>-->
+    <!--    <string name="btn_latihan4_no3_opsi4">8</string>-->
+
+    <!--    <string name="soal_latihan4_no4">Segitiga sama sisi memiliki sudut sebesar…</string>-->
+    <!--    <string name="btn_latihan4_no4_opsi1">60°</string>-->
+    <!--    <string name="btn_latihan4_no4_opsi2">90°</string>-->
+    <!--    <string name="btn_latihan4_no4_opsi3">180°</string>-->
+    <!--    <string name="btn_latihan4_no4_opsi4">50°</string>-->
+
+    <!--    <string name="soal_latihan4_no5">Pada suatu kelas terdapat 20 siswa yang mengikuti ujian matematika. Hasil darj ujian matematika tersebut adalah sebagai berikut : 70, 79, 80, 85, 89, 90, 98, 67, 78, 65, 88, 78, 82, 98, 83, 84, 78, 78, 89, 90. Dari hasil tersebut frekuensi nilai tertinggi adalah…</string>-->
+    <!--    <string name="btn_latihan4_no5_opsi1">4</string>-->
+    <!--    <string name="btn_latihan4_no5_opsi2">6</string>-->
+    <!--    <string name="btn_latihan4_no5_opsi3">2</string>-->
+    <!--    <string name="btn_latihan4_no5_opsi4">1</string>-->
+
+    <!--    <string name="soal_latihan5_no1">Beni mempunyai 3 donat dari 12 donat. Dan Deny mempunyai 2 donat dari 6 donat. Apabila donat tersebut digabungkan, berapakah pecahan dari gabungan donat tersebut…</string>-->
+    <!--    <string name="btn_latihan5_no1_opsi1">7\n-\n12</string>-->
+    <!--    <string name="btn_latihan5_no1_opsi2">6\n-\n12</string>-->
+    <!--    <string name="btn_latihan5_no1_opsi3">4\n-\n6</string>-->
+    <!--    <string name="btn_latihan5_no1_opsi4">1\n-\n2</string>-->
+
+    <!--    <string name="soal_latihan5_no2">Eko mengendarai sepeda dengan jarak tempuh 900m dalam waktu 5 menit. Berapakah kecepatan sepeda Eko…m/s</string>-->
+    <!--    <string name="btn_latihan5_no2_opsi1">4</string>-->
+    <!--    <string name="btn_latihan5_no2_opsi2">3</string>-->
+    <!--    <string name="btn_latihan5_no2_opsi3">2</string>-->
+    <!--    <string name="btn_latihan5_no2_opsi4">1</string>-->
+
+    <!--    <string name="soal_latihan5_no3">1 ember dapat diisi 5 gayung air hingga penuh. Berapa banyak ember yang dapat diisi penuh dengan 30 gayung air…</string>-->
+    <!--    <string name="btn_latihan5_no3_opsi1">4</string>-->
+    <!--    <string name="btn_latihan5_no3_opsi2">5</string>-->
+    <!--    <string name="btn_latihan5_no3_opsi3">2</string>-->
+    <!--    <string name="btn_latihan5_no3_opsi4">6</string>-->
+
+    <!--    <string name="soal_latihan5_no4">Rumah Andi memiliki bak mandi berbentuk balok. Bak mandi tersebut memiliki panjang 4 m, lebar 5 m, dan tinggi 6 m. Berapakah volume bak mandi Andi…</string>-->
+    <!--    <string name="btn_latihan5_no4_opsi1">30</string>-->
+    <!--    <string name="btn_latihan5_no4_opsi2">15</string>-->
+    <!--    <string name="btn_latihan5_no4_opsi3">120</string>-->
+    <!--    <string name="btn_latihan5_no4_opsi4">150</string>-->
+
+    <!--    <string name="soal_latihan5_no5">Tika berangkat ke sekolah menggunakan sepeda pada pukul 06.30. Tika sampai di sekolah pada pukul 06.59. Berapa waktu yang dibutuhkan Tika dari rumah ke sekolah…</string>-->
+    <!--    <string name="btn_latihan5_no5_opsi1">29</string>-->
+    <!--    <string name="btn_latihan5_no5_opsi2">19</string>-->
+    <!--    <string name="btn_latihan5_no5_opsi3">28</string>-->
+    <!--    <string name="btn_latihan5_no5_opsi4">30</string>-->
+
+    <!--    <string name="soal_latihan6_no1">Ibu pergi ke pasar untuk membeli persediaan memasak. Total harga belanjaan ibu adalah Rp. 36.500. Ibu hanya membawa uang sebanyak Rp. 24.000. Berapa sisa uang yang harus dibayar ibu…</string>-->
+    <!--    <string name="btn_latihan6_no1_opsi1">14.500</string>-->
+    <!--    <string name="btn_latihan6_no1_opsi2">12.500</string>-->
+    <!--    <string name="btn_latihan6_no1_opsi3">10.500</string>-->
+    <!--    <string name="btn_latihan6_no1_opsi4">11.500</string>-->
+
+    <!--    <string name="soal_latihan6_no2">Hasil penjumlahan dari -12 + 5 adalah…</string>-->
+    <!--    <string name="btn_latihan6_no2_opsi1">4</string>-->
+    <!--    <string name="btn_latihan6_no2_opsi2">7</string>-->
+    <!--    <string name="btn_latihan6_no2_opsi3">-7</string>-->
+    <!--    <string name="btn_latihan6_no2_opsi4">17</string>-->
+
+    <!--    <string name="soal_latihan6_no3">Joni mempunyai bola yang memiliki jari-jari 14 cm. Hitunglah luas permukaan bola Joni…</string>-->
+    <!--    <string name="btn_latihan6_no3_opsi1">2.464</string>-->
+    <!--    <string name="btn_latihan6_no3_opsi2">2.444</string>-->
+    <!--    <string name="btn_latihan6_no3_opsi3">2.344</string>-->
+    <!--    <string name="btn_latihan6_no3_opsi4">2.404</string>-->
+
+    <!--    <string name="soal_latihan6_no4">Penulisan dari negatif dua puluh adalah…</string>-->
+    <!--    <string name="btn_latihan6_no4_opsi1">20</string>-->
+    <!--    <string name="btn_latihan6_no4_opsi2">12</string>-->
+    <!--    <string name="btn_latihan6_no4_opsi3">-12</string>-->
+    <!--    <string name="btn_latihan6_no4_opsi4">-20</string>-->
+
+    <!--    <string name="soal_latihan6_no5">Pelemparan dadu sebanyak 25 kali. Angka yang keluar datanya adalah 1 2 3 4 5 5 6 2 3 4 5 6 6 4 3 2 1 4 3 5 6 6 5 4 5. Modus dari data di atas adalah ....</string>-->
+    <!--    <string name="btn_latihan6_no5_opsi1">4</string>-->
+    <!--    <string name="btn_latihan6_no5_opsi2">6</string>-->
+    <!--    <string name="btn_latihan6_no5_opsi3">5</string>-->
+    <!--    <string name="btn_latihan6_no5_opsi4">3</string>-->
+
+    <string name="solusi_latihan1_no1">Jumlah apel pertama ada 9, selanjutnya jumlah apel kedua ada 6, lalu jumlah apel terakhir ada 3. Maka 9 + 6 – 3 adalah 12.</string>
+    <string name="solusi_latihan1_no2">Jarum panjang dari jam tersebut menunjuk ke arah angka 12 dan jarum pendek jam tersebut menunjuk ke arah angka 3. Maka artinya jam tersebut menunjukkan pukul 03:00</string>
+    <string name="solusi_latihan1_no3">Tabung memiliki sisi berbentuk persegi panjang yang menyelimuti bagian tengahnya. Lalu sisi berbentuk lingkaran pada bagian atas dan bawahnya. Jadi jawabannya adalah tabung.</string>
+    <string name="solusi_latihan1_no4">Jawaban yang tepat adalah buku lebih ringan daripada tas.</string>
+    <string name="solusi_latihan1_no5">Amplop memiliki 4 sisi. Maka amplop memiliki bentuk segiempat.</string>
+
+    <string name="solusi_latihan2_no1">Lambang bilangan dari seratus sebelas adalah 111.</string>
+    <string name="solusi_latihan2_no2">Selisih artinya pengurangan. Maka 397 dikurangi dengan 53 hasilnya adalah 344</string>
+    <string name="solusi_latihan2_no3">Karena pada 1 kotak pensil isinya ada 3 pensil. Maka untuk mencari banyaknya pensil pada 6 kotak pensil kita dapat mengalikan banyaknya kotak pensil dengan jumlah isi pensilnya. Sehingga 6 x 3 hasilnya adalah 18.</string>
+    <string name="solusi_latihan2_no4">Sinta diberikan gula oleh tetangganya yang artinya jumlah gula Sinta bertambah dari 5 menjadi 7. Karena jawaban yang dibutuhkan dalam satuan gram maka ubahlah 7 kg menjadi satuannya gram. 1 kg sama dengan 1000 gram, maka 7 kg sama dengan 7000 gram.</string>
+    <string name="solusi_latihan2_no5">Jumlah sisi pada bangun segitiga ada 3. Maka jawabannya adalah 3.</string>
+
+    <string name="solusi_latihan3_no1">Nilai Siska = 89\nNilai Dita = 94\nUntuk mencari selisih maka nilai Dita dikurangi dengan nilai Siska. Jadi 94 – 89 = 5. Maka selisih nilai mereka adalah 5.</string>
+    <string name="solusi_latihan3_no2">Untuk mencari total berat dari cokelat yaitu dengan menjumlahkan semua berat tersebut. 5 + 1 + 2 = 8. Sehingga total berat dari cokelat adalah 8 ons.</string>
+    <string name="solusi_latihan3_no3">Banyaknya pizza adalah 1. Lalu pizza tersebut dibagi menjadi 8. Maka dapat diubah menjadi pecahan satu per delapan atau dapat ditulis 1/8</string>
+    <string name="solusi_latihan3_no4">- Segitiga lancip merupakan segitiga yang salah satu sudutnya memiliki ukuran kurang dari 90°.\n- Segitiga siku-siku merupakan segitiga yang salah satu sudutnya memiliki ukuran sudut 90°.\n- Segitiga tumpul merupakan segitiga yang salah satu sudutnya memiliki ukuran lebih dari 90°.</string>
+    <string name="solusi_latihan3_no5">Rumus dari keliling persegi adalah sisi + sisi + sisi + sisi. Maka 4 + 4 + 4 + 4 = 16. Sehingga keliling persegi tersebut adalah 16</string>
+
+    <string name="solusi_latihan4_no1">Pizza dipotong menjadi 8 bagian. Doni mengambil 3 bagian dari pizza dari 8. Maka pecahan yang menyatakan bagian pizza yang Doni ambil adalah 3/8</string>
+    <string name="solusi_latihan4_no2">Taksiran atas ke puluhan terdekat adalah 3.860. Lalu untuk taksiran ke ratusan terdekat adalah 3.900. Sedangkan untuk taksiran ke ribuan terdekat adalah 4.000. Karena yang diminta adalah taksiran ke ribuan terdekat maka jawabannya adalah 4.000</string>
+    <string name="solusi_latihan4_no4">Total sudut dari segitiga adalah 180°. KArena segitiga sama sisi memiliki besar sudut yang sama maka 180° dibagi menjadi 3 sesuai banyaknya sudut segitiga. Jadi besar sudutnya adalah 60°.</string>
+    <string name="solusi_latihan4_no5">Pertama kita urutkan dahulu nilai-nilai tersebut. 65, 67, 70, 78, 78, 78, 78, 79, 80, 82, 83, 84, 85, 88, 89, 89, 90, 90 98, 98. Nilai tertinggi yang didapat ada 2 nilai 98 maka frekuensi nilai tertinggi adalah 2.</string>
+
+    <string name="solusi_latihan5_no1">Karena donat mereka digabungkan maka jumlahkan donat Beni dan donat Deny. 3/12 + 2/6. Karena penyebutnya berbeda maka ubahlah agar dapat dijumlahkan. Setelah dirubah akan menjadi 3/12 + 4/12. Selanjutnya jumlahkan saja pecahan tersebut. Maka hasilnya adalah 7/12.</string>
+    <string name="solusi_latihan5_no2">Satuan akhir yang diminta adalah meter per detik. Ubahlah 5 menit menjadi detik. 1 menitnya adalah 60 detik, maka 5 menit sama dengan 300 detik. Rumus dari kecepatan adalah jarak dibagi dengan waktu. Jarak yang ditempuh adalah 900 meter dan waktu yang dibutuhkan adalah 300 detik. Sehingga 900 : 300 = 3. Jadi kecepatannya adalah 3m/s</string>
+    <string name="solusi_latihan5_no3">Dalam 1 ember dapat diisi dengan 5 gayung air. Jadi 30 dibagi 5 sama dengan 6. Maka 30 gayung dapat mengisi 6 ember.</string>
+    <string name="solusi_latihan5_no4">Rumus volume balok adalah panjang x lebar x tinggi. Maka 4 x 5 x 6 adalah 120.</string>
+    <string name="solusi_latihan5_no5">06.59 – 06.30. Maka waktu yang dibutuhkan Tina adalah 29 menit.</string>
+
+    <string name="solusi_latihan6_no1">Total harga dikurangi dengan uang yang ibu bawa. Jadi 36.500 – 24.000 adalah 12.500</string>
+    <string name="solusi_latihan6_no2">Bayangkan jumlah yang harus dibayar adalah 12 sedangkan kamu baru mempunyai 5. Maka sisa jumlah yang harus dibayar adalah 7. Karena bayarannya kurang maka -7.</string>
+    <string name="solusi_latihan6_no3">Rumus dari luas permukaan bola adalah L = 4 x π x r².\nL = 4 x 22/7 x 14 x 14\nL = 2.464 cm²\nJadi luas permukaan bola adalah 2.464 cm²</string>
+    <string name="solusi_latihan6_no4">Karena yang ditanya adalah negatif maka tambahkan lambang negatif yaitu -20</string>
+    <string name="solusi_latihan6_no5">Modus merupakan nilai yang sering muncul. Urutkan terlebih dahulu angka-angka yang didapatkan. 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6. Angka yang sering muncul adalah angka 5. Jadi modusnya adalah 5</string>
+
+    <string name="text_exam">Yeay!!\nKamu telah berhasil menyelesaikan exam. Berikut adalah hasilnya</string>
+    <string name="latihan_berhasil">Yey!\nKamu berhasil menyelesaikan latihan</string>
+
+    <string name="todo">TODO</string>
+    <string name="perkalian_angka_11">Perkalian Angka 11</string>
+    <string name="diberikan_soal_perkalian_63_x_11_berapakah_hasilnya_n_ncara_menjawabnya_seperti_berikut_ini">Diberikan soal perkalian 63 x 11 berapakah hasilnya?\n\nCara menjawabnya seperti berikut ini</string>
+    <string name="pertama_berikan_jarak_antara_angka_6_dan_angka_3">Pertama, berikan jarak antara angka 6 dan angka 3</string>
+    <string name="setelah_itu_jumlahkan_angka_6_dan_3_6_3_dan_hasilnya_adalah_9_letakkan_hasilnya_diantara_6_dan_3">Setelah itu jumlahkan angka 6 dan 3 (6 + 3) dan hasilnya adalah 9. Letakkan hasilnya diantara 6 dan 3</string>
+    <string name="selesai_hasil_dari_63_x_11_adalah_693">Selesai, hasil dari 63 x 11 adalah 693.</string>
+    <string name="ketika_angka_9_dikalikan_dengan_angka_1_2_3_10_dapat_menghasilkan_susunan_angka_yang_ketika_dibaca_dari_depan_atau_belakang_sama">Ketika angka 9 dikalikan dengan angka 1, 2, 3, …, 10 dapat menghasilkan susunan angka yang ketika dibaca dari depan atau belakang sama.</string>
+    <string name="jika_nilai_puluhannya_semakin_besar_maka_cara_mengalikannya_akan_semakin_mudah_cara_tersebut_paling_efektif_untuk_perkalian_90_sampai_99">Jika nilai puluhannya semakin besar, maka cara mengalikannya akan semakin mudah. Cara tersebut paling efektif untuk perkalian 90 sampai 99.</string>
+    <string name="contoh_angka">Contohnya angka 98 dengan 95. Masing–masing dari angka tersebut dikurangi dengan 100. Sehingga 100 – 98 = 2 dan 100 – 95 = 5. \nHasil pengurangan tersebut kemudian dijumlahkan, maka 2 + 5 = 7. \nLalu angka 100 dikurangi dengan hasil penjumlahan tadi yaitu 100 – 7 = 93. Angka 9 dijadikan ribuan dan angka 3 dijadikan ratusan \nSelanjutnya hasil dari 2 angka yang pertama tadi dikalikan maka hasilnya 2 x 5 = 10. Angka tersebut dijadikan sebagai puluhan dan satuannya \nSehingga hasil perkaliann 98 x 95 adalah 9310</string>
+    <string name="bilangan_dari_angka_0_ke_kanan_merupakan_bilangan_positif_sedangkan_bilangan_dari_angka_0_ke_kiri_merupakan_bilangan_negatif_n_ncontoh_soal_nseekor_lumba_lumba_berenang_pada_kedalaman_10_meter_di_bawah_permukaan_laut_saat_mencari_makan_lumba_lumba_tersebut_akan_bergerak_ke_atas_menuju_permukaan_laut_akhirnya_mendapatkan_makanan_pada_kedalaman_tersebut_kemudian_lumba_lumba_muncul_ke_luar_hingga_ketinggian_2_meter_diatas_permukaan_laut_untuk_menghirup_udara_nberikut_adalah_gambar_dari_garis_bilangan_yang_terbentuk">Bilangan dari angka 0 ke kanan merupakan bilangan positif, sedangkan bilangan dari angka 0 ke kiri merupakan bilangan negatif. \n\nContoh soal :\nSeekor lumba-lumba berenang pada kedalaman 10 meter di bawah permukaan laut. Saat mencari makan, lumba-lumba tersebut akan bergerak ke atas menuju permukaan laut. Akhirnya mendapatkan makanan pada kedalaman tersebut. Kemudian lumba-lumba muncul ke luar hingga ketinggian 2 meter diatas permukaan laut untuk menghirup udara. \nBerikut adalah gambar dari garis bilangan yang terbentuk.</string>
+    <string name="kuadrat">Menghitung hasil kuadarat dari 25 adalah sebagai berikut. \nMenghitung kuadrat dari sebuah angka 2 digit yang berakhiran 5 dapat mengalikan angka pertama dengan angka itu sendiri dan ditambah 1. Lalu letakkan angka 25 diakhir.</string>
+    <string name="penjumlahan">Ini merupakan penjumlahan dengan 1x penyimpanan. Penjumlahan bersusun dilakukan dengan menjumlahkan angka-angka tersebut dimulai dari satuannya. Ketika hasil jumlahnya lebih dari 9 maka nilai dari angka depannya disimpan pada angka yang dijumlahkan selanjutnya untuk ditambah.</string>
+    <string name="pilihlah_latihan_yang_ingin_kamu_lakukan">Pilihlah latihan yang ingin kamu lakukan!</string>
+    <string name="developer">Developer:</string>
+    <string name="dosen_pembimbing">Dosen Pembimbing</string>
+    <string name="dahliar_ananda">Dahliar Ananda</string>
+    <string name="mahasiswa_1">Mahasiswa 1</string>
+    <string name="yosua_langkay">Yosua Langkay</string>
+    <string name="mahasiswa_2">Mahasiswa 2</string>
+    <string name="salsabilah_valen">Salsabilah Valen</string>
+    <string name="perkalian_angka_9">Perkalian Angka 9</string>
+    <string name="perkalian_dua_nilai_puluhan">Perkalian Dua Nilai Puluhan</string>
+    <string name="garis_bilangan">Garis Bilangan</string>
+    <string name="menghitung_kuadrat">Menghitung Kuadrat</string>
+    <string name="penjumlahan_bersusun">Penjumlahan Bersusun</string>
+    <string name="materi_kelas_1">Materi Kelas 1</string>
+    <string name="bilangan_cacah_dan_lambangnya">Bilangan Cacah dan lambangnya</string>
+    <string name="pengukuran_berat">Pengukuran Berat</string>
+    <string name="satuan_pengukuran">Satuan Pengukuran</string>
+    <string name="penjumlahan_dan_pengurangan">Penjumlahan dan Pengurangan</string>
+    <string name="bangun_datar">Bangun Datar</string>
+    <string name="materi_kelas_2">Materi Kelas 2</string>
+    <string name="urutan_bilangan">Urutan Bilangan</string>
+    <string name="operasi_penjumlahan_dan_pengurangan">Operasi Penjumlahan dan Pengurangan</string>
+    <string name="pengukuran">Pengukuran</string>
+    <string name="operasi_perkalian_dan_pembagian">Operasi Perkalian dan Pembagian</string>
+    <string name="materi_kelas_3">Materi Kelas 3</string>
+    <string name="operasi_hitung_bilangan">Operasi Hitung Bilangan</string>
+    <string name="pecahan_sederhana">Pecahan Sederhana</string>
+    <string name="unsur_dan_sifat_bangun_datar">Unsur dan Sifat Bangun Datar</string>
+    <string name="keliling_dan_luas_persegi_dan_persegi_panjang">Keliling dan Luas Persegi dan Persegi Panjang</string>
+    <string name="kelas_4">Kelas 4</string>
+    <string name="pertanyaan">pertanyaan</string>
+    <string name="opsi1" tools:ignore="Typos">opsi1</string>
+    <string name="opsi2">opsi2</string>
+    <string name="opsi3">opsi3</string>
+    <string name="opsi4">opsi4</string>
+    <string name="selesai">Selesai</string>
+    <string name="kelas_5">Kelas 5</string>
+    <string name="pilihlah_jawaban_yang_benar">Pilihlah jawaban yang benar!</string>
+    <string name="kelas_6">Kelas 6</string>
+    <string name="exam">Exam</string>
+    <string name="masukan_nama_anda">Masukan Nama Anda</string>
+    <string name="nama_pemberi_saran">Nama Pemberi Saran</string>
+    <string name="masukan_kelas">Masukan Kelas</string>
+    <string name="kelas">Kelas</string>
+    <string name="masukan_asal_sekolah">Masukan Asal Sekolah</string>
+    <string name="asal_sekolah">Asal Sekolah</string>
+    <string name="masukan_saran">Masukan Saran</string>
+    <string name="saran_materi">Saran Materi Baru</string>
+    <string name="kirim">KIRIM</string>
+    <string name="_45_n_n1_45_n3_15_n5_9_n9_5_n15_3_n45_1_n_nfaktor_dari_45_adalah_1_3_5_9_15_45_maka_banyaknya_faktor_dari_45_adalah_6">45\n---------\n1 45\n3 15\n5 9\n9 5\n15 3\n45 1\n\nFaktor dari 45 adalah 1,3,5,9,15,45. Maka banyaknya faktor dari 45 adalah 6.</string>
+    <string name="judul_materi">Judul Materi</string>
+    <string name="_1_sub_1">1. Sub 1</string>
+    <string name="penjelasan">Penjelasan</string>
+    <string name="contoh">Contoh</string>
+    <string name="textview">TextView</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="tambah_saran_materi">Tambah Saran Materi</string>
+    <string name="materi_kelas_4">Materi Kelas 4</string>
+    <string name="bilangan_pecahan">Bilangan Pecahan</string>
+    <string name="bentuk_pecahan">Bentuk Pecahan</string>
+    <string name="faktor_dan_kelipatan_bilangan">Faktor dan Kelipatan Bilangan</string>
+    <string name="menentukan_kpk_dan_fpb">Menentukan Kpk dan Fpb</string>
+    <string name="penerapan_kpk_fpb">Penerapan Kpk Fpb</string>
+    <string name="bangun_segibanyak">Bangun Segibanyak</string>
+    <string name="taksiran">Taksiran</string>
+    <string name="aplikasi_pecahan">Aplikasi Pecahan</string>
+    <string name="faktorisasi_prima">Faktorisasi Prima</string>
+    <string name="pembulatan_hasil_pengukuran_panjang_dan_berat_ke_satuan_terdekat">Pembulatan Hasil Pengukuran Panjang dan Berat ke Satuan Terdekat</string>
+    <string name="pembulatan_hasil_pengukuran_panjang_dan_berat_ke_puluhan_terdekat">Pembulatan Hasil Pengukuran Panjang dan Berat ke Puluhan Terdekat</string>
+    <string name="pembulatan_hasil_pengukuran_panjang_dan_berat_ke_ratusan_terdekat">Pembulatan Hasil Pengukuran Panjang dan Berat ke Ratusan Terdekat</string>
+    <string name="keliling_bangun_datar">Keliling Bangun Datar</string>
+    <string name="luas_bangun_datar">Luas Bangun Datar</string>
+    <string name="membaca_dan_menafsir_datar">Membaca dan Menafsir Datar</string>
+    <string name="penyajian_data_dalam_diagram_batang">Penyajian Data dalam Diagram Batang</string>
+    <string name="pengukuran_sudut_dalam_satuan_baku_dengan_busur_derajat">Pengukuran Sudut Dalam Satuan Baku dengan Busur Derajat</string>
+    <string name="pengukuran_sudut_bangun_datar_dengan_busur_derajat">Pengukuran Sudut Bangun Datar dengan Busur Derajat</string>
+    <string name="materi_kelas_5">Materi Kelas 5</string>
+    <string name="operasi_hitung_pecahan">Operasi Hitung Pecahan</string>
+    <string name="kecepatan_dan_debit">Kecepatan Dan Debit</string>
+    <string name="skala">Skala</string>
+    <string name="bangun_ruang">Bangun Ruang</string>
+    <string name="pengumpulan_dan_penyajian_data">Pengumpulan Dan Penyajian Data</string>
+    <string name="materi_kelas_6">Materi Kelas 6</string>
+    <string name="bilangan_bulat">Bilangan Bulat</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="bangun_ruang_kelas_6">Bangun Ruang Kelas 6</string>
+    <string name="statistika">Statistika</string>
+    <string name="kelas_1">Kelas 1</string>
+    <string name="kelas_2">Kelas 2</string>
+    <string name="kelas_3">Kelas 3</string>
+    <string name="math_is_fun">Math Is Fun</string>
+    <string name="desk_app">Math Is Fun adalah aplikasi yang dibuat untuk anak sekolah dasar dengan tujuan memudahkan anak sekolah dasar untuk belajar matematika secara online.</string>
+
+    <string name="penyelesaian">Penyelesaian</string>
+
+    <string name="_4">4</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="tentukan_lambang_bilangan_dari_seratus_sebelas">Tentukan lambang bilangan dari seratus sebelas</string>
+    <string name="_114">114</string>
+    <string name="_101">101</string>
+    <string name="_111">111</string>
+    <string name="_110">110</string>
+    <string name="selisih_dari_bilangan_397_dan_53_adalah">Selisih dari bilangan 397 dan 53 adalah…</string>
+    <string name="_345">345</string>
+    <string name="_344">344</string>
+    <string name="_342">342</string>
+    <string name="_343">343</string>
+    <string name="_1_kotak_pensil_berisi_3_bulpoin_berapa_jumlah_pensil_jika_terdapat_6_kotak_pensil">1 kotak pensil berisi 3 bulpoin. Berapa jumlah pensil jika terdapat 6 kotak pensil…</string>
+    <string name="_14">14</string>
+    <string name="_16">16</string>
+    <string name="_18">18</string>
+    <string name="sinta_memiliki_gula_seberat_5_kg_kemudian_tetangganya_memberikan_gula_kepada_sinta_seberat_2_kg_berapa_gram_gula_yang_dimiliki_oleh_sinta_sekarang">Sinta memiliki gula seberat 5 kg, kemudian tetangganya memberikan gula kepada Sinta seberat 2 kg. Berapa gram gula yang dimiliki oleh Sinta sekarang…</string>
+    <string name="_7_000">7.000</string>
+    <string name="_6_000">6.000</string>
+    <string name="_8_000">8.000</string>
+    <string name="_5_000">5.000</string>
+    <string name="segitiga_memiliki_sisi">Segitiga memiliki…sisi</string>
+    <string name="ada_1_buah_pizza_yang_dipotong_menjadi_8_bagian_lalu_doni_mengambil_3_potong_pecahan_untuk_menyatakan_bagian_pizza_yang_doni_ambil_dari_seluruh_potongan_pizza_adalah">Ada 1 buah pizza yang dipotong menjadi 8 bagian. Lalu Doni mengambil 3 potong. Pecahan untuk menyatakan bagian pizza yang Doni ambil dari seluruh potongan pizza adalah…</string>
+    <string name="_1_n_n8">1\n-\n8</string>
+    <string name="_1_n_n3">1\n-\n3</string>
+    <string name="_8_n_n3">8\n-\n3</string>
+    <string name="_3_n_n8">3\n-\n8</string>
+    <string name="tentukan_taksiran_atas_ke_ribuan_terdekat_dari_3_858">Tentukan taksiran atas ke ribuan terdekat dari 3.858…</string>
+    <string name="_4_860">4.860</string>
+    <string name="_4_000">4.000</string>
+    <string name="_4_100">4.100</string>
+    <string name="_3_900">3.900</string>
+    <string name="berapa_banyak_bilangan_yang_merupakan_faktor_dari_45">Berapa banyak bilangan yang merupakan faktor dari 45…</string>
+    <string name="_7">7</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_8">8</string>
+    <string name="segitiga_sama_sisi_memiliki_sudut_sebesar">Segitiga sama sisi memiliki sudut sebesar…</string>
+    <string name="_60">60°</string>
+    <string name="_90">90°</string>
+    <string name="_180">180°</string>
+    <string name="_50">50°</string>
+    <string name="pada_suatu_kelas_terdapat_20_siswa_yang_mengikuti_ujian_matematika_hasil_darj_ujian_matematika_tersebut_adalah_sebagai_berikut_70_79_80_85_89_90_98_67_78_65_88_78_82_98_83_84_78_78_89_90_dari_hasil_tersebut_frekuensi_nilai_tertinggi_adalah">Pada suatu kelas terdapat 20 siswa yang mengikuti ujian matematika. Hasil darj ujian matematika tersebut adalah sebagai berikut : 70, 79, 80, 85, 89, 90, 98, 67, 78, 65, 88, 78, 82, 98, 83, 84, 78, 78, 89, 90. Dari hasil tersebut frekuensi nilai tertinggi adalah…</string>
+    <string name="beni_mempunyai_3_donat_dari_12_donat_dan_deny_mempunyai_2_donat_dari_6_donat_apabila_donat_tersebut_digabungkan_berapakah_pecahan_dari_gabungan_donat_tersebut">Beni mempunyai 3 donat dari 12 donat. Dan Deny mempunyai 2 donat dari 6 donat. Apabila donat tersebut digabungkan, berapakah pecahan dari gabungan donat tersebut…</string>
+    <string name="_7_n_n12">7\n-\n12</string>
+    <string name="_6_n_n12">6\n-\n12</string>
+    <string name="_4_n_n6">4\n-\n6</string>
+    <string name="_1_n_n2">1\n-\n2</string>
+    <string name="eko_mengendarai_sepeda_dengan_jarak_tempuh_900m_dalam_waktu_5_menit_berapakah_kecepatan_sepeda_eko_m_s">Eko mengendarai sepeda dengan jarak tempuh 900m dalam waktu 5 menit. Berapakah kecepatan sepeda Eko…m/s</string>
+    <string name="_1_ember_dapat_diisi_5_gayung_air_hingga_penuh_berapa_banyak_ember_yang_dapat_diisi_penuh_dengan_30_gayung_air">1 ember dapat diisi 5 gayung air hingga penuh. Berapa banyak ember yang dapat diisi penuh dengan 30 gayung air…</string>
+    <string name="rumah_andi_memiliki_bak_mandi_berbentuk_balok_bak_mandi_tersebut_memiliki_panjang_4_m_lebar_5_m_dan_tinggi_6_m_berapakah_volume_bak_mandi_andi">Rumah Andi memiliki bak mandi berbentuk balok. Bak mandi tersebut memiliki panjang 4 m, lebar 5 m, dan tinggi 6 m. Berapakah volume bak mandi Andi…</string>
+    <string name="_30">30</string>
+    <string name="_15">15</string>
+    <string name="_120">120</string>
+    <string name="_150">150</string>
+    <string name="tika_berangkat_ke_sekolah_menggunakan_sepeda_pada_pukul_06_30_tika_sampai_di_sekolah_pada_pukul_06_59_berapa_waktu_yang_dibutuhkan_tika_dari_rumah_ke_sekolah">Tika berangkat ke sekolah menggunakan sepeda pada pukul 06.30. Tika sampai di sekolah pada pukul 06.59. Berapa waktu yang dibutuhkan Tika dari rumah ke sekolah…</string>
+    <string name="_29">29</string>
+    <string name="_19">19</string>
+    <string name="_28">28</string>
+    <string name="ibu_pergi_ke_pasar_untuk_membeli_persediaan_memasak_total_harga_belanjaan_ibu_adalah_rp_36_500_ibu_hanya_membawa_uang_sebanyak_rp_24_000_berapa_sisa_uang_yang_harus_dibayar_ibu">Ibu pergi ke pasar untuk membeli persediaan memasak. Total harga belanjaan ibu adalah Rp. 36.500. Ibu hanya membawa uang sebanyak Rp. 24.000. Berapa sisa uang yang harus dibayar ibu…</string>
+    <string name="_14_500">14.500</string>
+    <string name="_12_500">12.500</string>
+    <string name="_10_500">10.500</string>
+    <string name="_11_500">11.500</string>
+    <string name="hasil_penjumlahan_dari_12_5_adalah">Hasil penjumlahan dari -12 + 5 adalah…</string>
+    <string name="_min7">-7</string>
+    <string name="_17">17</string>
+    <string name="joni_mempunyai_bola_yang_memiliki_jari_jari_14_cm_hitunglah_luas_permukaan_bola_joni">Joni mempunyai bola yang memiliki jari-jari 14 cm. Hitunglah luas permukaan bola Joni…</string>
+    <string name="_2_464">2.464</string>
+    <string name="_2_444">2.444</string>
+    <string name="_2_344">2.344</string>
+    <string name="_2_404">2.404</string>
+    <string name="penulisan_dari_negatif_dua_puluh_adalah">Penulisan dari negatif dua puluh adalah…</string>
+    <string name="_20">20</string>
+    <string name="_12">12</string>
+    <string name="min12">-12</string>
+    <string name="min20">-20</string>
+    <string name="pelemparan_dadu_sebanyak_25_kali_angka_yang_keluar_datanya_adalah_1_2_3_4_5_5_6_2_3_4_5_6_6_4_3_2_1_4_3_5_6_6_5_4_5_modus_dari_data_di_atas_adalah">Pelemparan dadu sebanyak 25 kali. Angka yang keluar datanya adalah 1 2 3 4 5 5 6 2 3 4 5 6 6 4 3 2 1 4 3 5 6 6 5 4 5. Modus dari data di atas adalah ....</string>
+    <string name="silahkanKelas">Silahkan Pilih Kelas Untuk Mulai Belajar Matematika!</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+</resources>

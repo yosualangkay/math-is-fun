@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/bangunRuangK5"
+        android:title="Bangun Ruang"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/kecepatanDebit"
+        android:title="Kecepatan Debit"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/operasiHitungPecahan"
+        android:title="Operasi Hitung Pecahan"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pengumpulanPenyajianData"
+        android:title="Pengumpulan dan Penyajian Data"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/skala"
+        android:title="Skala"
+        android:icon="@drawable/ic_baseline_book_24"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/backKelas"
+        android:title="Kembali"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        app:showAsAction="never" />
+
+</menu>
